@@ -1,0 +1,173 @@
+
+/* home page */
+.home-section{
+    background-color: #F3F6F9;
+}
+
+/* header section style */
+
+.header-main-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background: url(./../../img/bg-header-t.png) no-repeat center top /cover;
+    
+}
+.header-main-section::before, .our-solution-section::before{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: .5;
+}
+.header-main{
+    color: #ffffff;
+    position: relative;
+    z-index: 5;
+}
+.header-main p{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    line-height: 1.7;
+}
+
+.business-info-section{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    padding: 20px 0;
+    background-image: url(./../../img/bg\ \(13\).jpg);
+}
+.business-info-section::before{
+    height:500px;
+    content:' ';
+    position: absolute;
+    top: 500;
+    width: 30%;
+    right: 0;
+    z-index: -1;
+    background-color: #fff;
+}
+
+.header-img img{
+    border-radius: 5px;
+}
+.nav-header{
+    color: #fff;
+}
+.nav-header:hover{
+    color: red;
+}
+
+
+/* all button style  & global*/
+.button-white{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    border: 1px solid #000 !important;
+    font-weight: 600 !important;
+}
+
+.btn-schedule{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    padding: 10px 15px !important;
+}
+.button{
+    padding: 5px 15px;
+    border: 1px solid #fff !important;
+    font-weight: 600 !important;
+}
+.button:hover, .button-white:hover{
+    color: tomato !important;
+    border: 1px solid red !important;
+}
+.sub-header{
+    color: rgb(211, 0, 0);
+}
+
+.btn.focus, .btn:focus{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+/* services section style */
+.service-image img, .news-image img{
+    border-radius: 5px;
+}
+
+
+/* our solution section style */
+.our-solution-section{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background: url(./../../img/repair\ \(5\).jpg) no-repeat center top /cover;
+
+}
+.fixing-image img{
+    border-radius: 5px;
+}
+.our-solution{
+    color: #ffffff;
+}
+
+
+
+/* testimonial section style */
+
+.testimonial-section{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    background-image: url(./../../img/bg\ \(13\).jpg);
+}
+
+
+/* contact us section style */
+/* .contact-section{
+    background-image: url(./../../img/bg\ \(16\).jpg);
+} */
+
+
+/* all card transition  style*/
+.card-transform{
+    transition: all .8s;
+}
+.card-transform:hover{
+    transform: scale(1.1);
+}
+
+/* news section style */
+.card{
+    border-radius: 5px;
+}
+.news{
+    transition: transform .5s ease-out;
+    cursor: pointer;
+}
+.news:hover{
+    transform: translateY(-15px);
+}
+.news-description h4{
+    font-weight: 400;
+}
+.news-description h4:hover{
+    color: rgb(255, 53, 53);
+}
+.services-section, .contact-section, .business-card-section, .news-section{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}

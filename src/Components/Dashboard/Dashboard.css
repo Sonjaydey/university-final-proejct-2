@@ -1,0 +1,64 @@
+
+.dashboard-section, .add-service-section, .add-review-section, .add-admin-section, .orders-section, .manage-service-section{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+    background-color: #F3F6F9 ;
+}
+
+h5, .h5{
+    font-weight: 400 !important;
+}
+.table th{
+    font-weight: 500;
+}
+.table td{
+    font-weight: 400;
+}
+
+/* for button style */
+.bg-pending{
+    background-color:#d2e69c !important;
+    
+}
+.bg-ongoing{
+    background-color: #8fd9a8 !important;
+}
+.bg-done{
+    background-color: #28b5b5 !important;
+}
+/* .title{
+    color: #f5dc5e;
+}
+.time{
+    color: #ff8882;
+}
+.info{
+    color: #194350;
+} */
+
+/* My order section style */
+
+
+.my-order{
+    /* cursor: pointer; */
+    /* transition: transform .5s ease-out; */
+}
+.my-order:hover{
+    /* transform: translateY(-15px); */
+}
+.star{
+    cursor: pointer;
+}
+.star:hover{
+    color: yellow;
+}
+
+.swal-modal{
+    width: 370px !important;
+}
+.swal-title{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
